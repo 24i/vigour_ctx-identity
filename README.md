@@ -11,6 +11,11 @@ An example of a canvas transform which doesn't alter the canvas at all (it's the
 
 <!-- VDOC END -->
 
+## Why?
+
+To implement a form of middleware for image manipulation. The contract is simple. Every middlware is a function that accepts a canvas and calls a callback, providing it with an error or a canvas. This makes it easy to compose various image manipulations any way you want. See [imaginate](github.com/vigour-io/imaginate), which offers an API that does exactly this.
+
+## Usage
 <!-- VDOC.jsdoc cIdentity -->
 <!-- DON'T EDIT THIS SECTION (including comments), INSTEAD RE-RUN `vdoc` TO UPDATE -->
 #### var transform = cIdentity()
