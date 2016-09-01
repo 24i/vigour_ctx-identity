@@ -26,7 +26,7 @@ const cIdentity = require('ctx-identity')
 
 var canvas = document.getElementById('aCanvas')
 
-cIdentity()(ctx, function (err, newCanvas) {
+cIdentity()(canvas, function (err, newCanvas) {
   var ctx = newCanvas.getContext('2d')
   ...
 })
