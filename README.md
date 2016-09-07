@@ -19,7 +19,7 @@ To implement a form of middleware for image manipulation. The contract is simple
 <!-- VDOC.jsdoc cIdentity -->
 <!-- DON'T EDIT THIS SECTION (including comments), INSTEAD RE-RUN `vdoc` TO UPDATE -->
 #### var transform = cIdentity()
-- **returns** (*function*) transform - A function that accepts a canvas context and returns it as-is
+- **returns** (*function*) transform - A function that accepts a canvas and returns it as-is
 
 <!-- VDOC END -->
 
