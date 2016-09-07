@@ -1,6 +1,6 @@
 {
   "name": "ctx-identity",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An example of a canvas transform which doesn't alter the canvas at all (it's the identity transform). Useful as boilerplate for making real canvas transforms which do modify the canvas.",
   "main": "lib/index.js",
   "scripts": {
